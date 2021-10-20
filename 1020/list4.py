@@ -1,4 +1,5 @@
 n = input("整数を入力してください")
+# 入力した値を整数にしないといけない num = int(n)
 s = range(1,int(n) + 1)
 total = sum(s)
 average = total / len(s)
